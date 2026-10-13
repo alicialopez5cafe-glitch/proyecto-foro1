@@ -3,7 +3,7 @@ import { Home, User, BookOpen, FileText, LogOut, Settings, ChevronDown, ChevronR
 
 export default function App() {
   const [opcionSeleccionada, setOpcionSeleccionada] = useState('Inicio');
-  const [menuAbierto, setMenuAbierto] = useState<string | null>('Mi Perfil'); // Menú desplegado por defecto
+  const [menuAbierto, setMenuAbierto] = useState<string | null>('null'); 
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
