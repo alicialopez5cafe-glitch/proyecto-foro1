@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Home, User, BookOpen, FileText, LogOut, Settings, ChevronDown, ChevronRight, Menu } from 'lucide-react';
 
 export default function App() {
-  const [opcionSeleccionada, setOpcionSeleccionada] = useState('Ver Perfil');
+  const [opcionSeleccionada, setOpcionSeleccionada] = useState('Inicio');
   const [menuAbierto, setMenuAbierto] = useState<string | null>('Mi Perfil'); // Menú desplegado por defecto
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
